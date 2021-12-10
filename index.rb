@@ -94,3 +94,14 @@ for find in company
               break
        end
 end
+
+#array iteration
+personName = [
+       "Ferdian Ahmad",
+       "Smith Micro",
+       "John Doe"
+]
+
+personName.each do | pName |
+       puts pName
+end
