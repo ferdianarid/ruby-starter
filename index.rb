@@ -55,6 +55,9 @@ class University
        def sayUniversity
               "Hello " + @universityName
        end
+       def switchKelas
+              "I want move to kelas " + @kelasName
+       end
 end
 
 #Creating object and pass to parameters
